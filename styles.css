@@ -1,0 +1,90 @@
+body{
+    font-family: Anton , 'Courier New', Courier, monospace;
+}
+.background-img {
+    display: flex;
+    justify-content: center;
+    background-image: url("https://www.indiemade.com/sites/default/files/bg-swirls.jpg");
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    text-decoration: none;
+    height:10vh ;
+    width: 100%;
+}
+.nav-bar > .left-side-bar {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    }
+
+.right-nav-bar {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   width: 100%;
+}
+ .links {
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     width: 100%;
+     text-decoration: none;
+   
+}
+ .nav-links a {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;  
+    text-decoration: none;
+    color: white;
+}
+.nav-links button {
+    background-color: blue;
+    border: 2px solid white;
+    padding: 10px;
+}
+.heros-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%
+}
+.artist {
+    color: white;
+    font-size: 2em;
+    font-weight: 700em;
+}
+
+.artist h1 {
+    text-align: center;
+}
+.info {
+    font-size: 25px;
+    font-family: Anton , 'Courier New', Courier, monospace;
+}
+.circles-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 100px;
+   
+}
+.circles-wrapper > .image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 196px;
+    width: 100%   
+    
+
+}
+
